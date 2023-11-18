@@ -1,0 +1,119 @@
+@media (width>1440px) {
+
+    body {
+        overflow: hidden;
+
+
+    }
+
+    main {
+        height: 850px;
+        width: 100vw;
+        position: relative;
+        background-position: top 2%;
+
+
+    }
+
+    .headline {
+        width: 100vw;
+
+    }
+
+    .headline2 {
+        width: 100vw;
+
+        justify-content: center;
+
+    }
+
+    .boxes {
+        margin-top: 65px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 0px;
+        /* border:  1px solid black; */
+        position: relative;
+
+
+    }
+
+    .box1 {
+        position: relative;
+        margin: 32px;
+        left: 60px;
+        top: 25px;
+    }
+
+    .box1,
+    .box2,
+    .box3 {
+        width: 350px;
+    }
+
+    .box2 {
+        z-index: 1;
+        height: 500px;
+    }
+
+    .box3 {
+        position: relative;
+        right: 30px;
+        top: 25px;
+    }
+
+    .index {
+        margin-top: 50px;
+    }
+
+    .box2 h4 {
+        position: relative;
+        top: 22px;
+    }
+
+    .boxes img {
+        width: 348px;
+        left: 17%;
+        top: 32%;
+        position: absolute;
+        height: 516px;
+    }
+
+    h1 {
+        margin-left: -12px;
+    }
+
+
+    .back {
+        height: 400px;
+        width: 800px;
+        left: 0px;
+        z-index: -1;
+        position: absolute;
+        top: 550px;
+    }
+
+    .back {
+        display: flex;
+    }
+
+    p span {
+        left: -10px;
+        top: -7px;
+    }
+
+    .btn:hover {
+        opacity: 0.5;
+        cursor: pointer;
+
+    }
+
+    button:hover {
+        cursor: grab;
+        color: white;
+        background: linear-gradient(135deg, #A2A7F0 0%, #696EDD 100%);
+        transform: scale(1.1);
+        transition: 1s;
+    }
+}
